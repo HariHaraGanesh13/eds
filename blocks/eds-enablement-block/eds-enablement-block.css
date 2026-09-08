@@ -1,0 +1,62 @@
+.eds-enablement-block {
+  background: #fff;
+  color: #2c2c2c;
+  padding: 32px 24px;
+  margin: 40px 0;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+  border: 1px solid #ececec;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.eds-enablement-block:hover {
+  box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+  transform: translateY(-2px);
+}
+
+.eds-enablement-block h2,
+.eds-enablement-block h3 {
+  color: #2c2c2c;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.eds-enablement-block p {
+  color: #4b4b4b;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.eds-enablement-row {
+  margin-bottom: 12px;
+}
+
+.eds-enablement-row:last-child {
+  margin-bottom: 0;
+}
+
+/* First row styled like the page's bold headline treatment */
+.eds-enablement-row-title h2,
+.eds-enablement-row-title h3 {
+  color: #fa0f00;
+  font-size: 22px;
+}
+
+/* Optional: dark "hero" variant, matching the brick/red hero section on the page */
+.eds-enablement-block.dark {
+  background: linear-gradient(135deg, #1d1d1d, #3a3a3a);
+  border-color: transparent;
+  color: #fff;
+}
+
+.eds-enablement-block.dark h2,
+.eds-enablement-block.dark h3,
+.eds-enablement-block.dark p {
+  color: #fff;
+}
+
+.eds-enablement-block.dark .eds-enablement-row-title h2,
+.eds-enablement-block.dark .eds-enablement-row-title h3 {
+  color: #fa0f00;
+}
