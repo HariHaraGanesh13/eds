@@ -1,5 +1,5 @@
 .eds-enablement-block {
-  background: #ffffff;
+  background: #fff;
   color: #2c2c2c;
   padding: 32px 24px;
   margin: 40px 0;
@@ -47,13 +47,13 @@
 .eds-enablement-block.dark {
   background: linear-gradient(135deg, #1d1d1d, #3a3a3a);
   border-color: transparent;
-  color: #ffffff;
+  color: #fff;
 }
 
 .eds-enablement-block.dark h2,
 .eds-enablement-block.dark h3,
 .eds-enablement-block.dark p {
-  color: #ffffff;
+  color: #fff;
 }
 
 .eds-enablement-block.dark .eds-enablement-row-title h2,
